@@ -1,0 +1,1 @@
+t = -5:0.1:5; x = exp(-(t.^2)).*cos(2.*pi.*t); plot(t,x); grid on; title('6a'); xlabel('t(sec)'); ylabel('x(t)');
